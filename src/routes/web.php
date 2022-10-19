@@ -1,5 +1,5 @@
 <?php
 // MyVendor\formulario-contato\src\routes\web.php
-Route::get('teste', function(){
+Route::get('contato', function(){
     return 'Hello World do seu Pacote!';
 });

@@ -1,28 +1,19 @@
 {
-    "name": "stg/pagseguro",
-    "description": "Pacote de Checkout Pagseguro para Módulo de Pagamentos",
-    "type": "composer-plugin",
+    "name": "wallace/pagseguro",
+    "description": "Teste de Criaçãod e Pacote PagSeguro\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D \u001b[Cd\u001b[D\u001b[Dde\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
-  
         "psr-4": {
-            "Stg\\Pagseguro\\": "packages/stg/pagseguro/src/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Stg\\Pagseguro\\": "packages/stg/pagseguro/src/",
-            "Tests\\": "tests/"
+            "Wallace\\PagSeguro\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Wallace Aguiar",
-            "email": "wallaceaguiar.developer@gmail.com"
+            "email": "wallacevr@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
-
-
 }
