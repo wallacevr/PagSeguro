@@ -1,0 +1,28 @@
+{
+    "name": "stg/pagseguro",
+    "description": "Pacote de Checkout Pagseguro para Módulo de Pagamentos",
+    "type": "composer-plugin",
+    "autoload": {
+  
+        "psr-4": {
+            "Stg\\Pagseguro\\": "packages/stg/pagseguro/src/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stg\\Pagseguro\\": "packages/stg/pagseguro/src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wallace Aguiar",
+            "email": "wallaceaguiar.developer@gmail.com"
+        }
+    ],
+    "require": {}
+
+
+}
