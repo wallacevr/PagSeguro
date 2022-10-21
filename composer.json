@@ -4,6 +4,9 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
+        "classmap": [
+            "src/database/migrations"
+        ],
         "psr-4": {
             "wallace\\pagseguro\\": "src/"
         }
